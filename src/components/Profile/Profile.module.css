@@ -5,7 +5,7 @@
     width: 400px;
     border:  4mm ridge rgba(211, 220, 50, .6);
     border-radius: 3%;
-    min-height: 500px;
+    /* min-height: 500px; */
 }
 
 .description {

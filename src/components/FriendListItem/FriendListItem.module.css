@@ -1,0 +1,25 @@
+.item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    &:last-child {
+        border-bottom: 0;
+    }
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
+}

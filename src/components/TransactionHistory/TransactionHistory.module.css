@@ -1,0 +1,24 @@
+.historyTable {
+    text-align: center;
+    /* width: 400px; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3%;
+}
+
+.title {
+    width: 200px;
+    padding: 20px 40px;
+    background-color: blue;
+    color: white;
+    
+    &:first-child {
+        border-top-left-radius: 10px;
+    }
+
+    &:last-child {
+        border-top-right-radius: 10px;
+    }
+}
